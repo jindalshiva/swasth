@@ -17,9 +17,14 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Exercise Hub" />
         <item
+            android:id="@+id/nav_label"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Lable Detector" />
+        <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Pollution Detector" />
+
     </group>
 
     <!--<item android:title="Communicate">-->
