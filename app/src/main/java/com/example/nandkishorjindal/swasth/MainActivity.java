@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent( this, ExerciseHub.class );
             startActivity( intent );
         }else if (id == R.id.nav_label) {
-            Intent intent = new Intent( this, PollutionDetector.class );
+            Intent intent = new Intent( this, LableDetector.class );
             startActivity( intent );
         }
         else if (id == R.id.nav_manage) {
